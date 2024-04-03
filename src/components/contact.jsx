@@ -25,11 +25,11 @@ const Contact = () => {
     }
 
     return (
-        <div className='bg-black px-7  py-12'>
+        <div className='bg-black px-8  py-12'>
             <div>
                 <div className='flex gap-2 text-2xl mb-8'>
                     <h2 className='text-complex'>Contact</h2>
-                    <div className='text-main'>-----------------------</div>
+                    <div className='text-main'>-------------------</div>
                 </div>
 
                 <div className='text-complex'>

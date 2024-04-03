@@ -19,12 +19,12 @@ import {
 
 } from "react-icons/fa6";
 
+import { FaGithub } from "react-icons/fa";
+
 const Skills = () => {
     return (
-        <div className='bg-black px-7 py-10'>
+        <div className='bg-black px-7 lg:px-9 py-10'>
             <div>
-
-
                 <div className='flex gap-2 text-2xl mb-2'>
                     <h2 className='text-complex'>Skills</h2>
                     <div className='text-main'>-----------------------</div>
@@ -77,6 +77,12 @@ const Skills = () => {
                     <SiFirebase className='text-[#FFA000]' size={100} />
                     <h2 className='text-complex font-semibold'>Firebase</h2>
                 </div>
+
+                <div className='flex flex-col justify-center  items-center w-[9rem] py-4 border-[1px] border-main'>
+                    <FaGithub className='text-[white]' size={100} />
+                    <h2 className='text-complex font-semibold'>Git</h2>
+                </div>
+
             </div>
         </div>
     )

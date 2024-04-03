@@ -1,21 +1,25 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { SlSocialLinkedin } from "react-icons/sl";
-
+import { FaTwitter, FaXTwitter } from "react-icons/fa6";
+import { SiHashnode } from "react-icons/si";
 
 const Footer = () => {
     return (
-        <div>
-            <div>
-                <div>
-                    <h2>Zainab.</h2>
+        <div className='bg-black text-complex px-8 lg:py-10 py-5 flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-center'>
+            <div className='flex flex-col gap-1'>
+                <div className='mb-3'>
+                    <h2 className='text-white text-xl'>Zainab.</h2>
                 </div>
-                <h2> Frontend Developer and Tecnical Writer </h2>
+                <h2> Frontend Developer and Technical Writer </h2>
                 <p>zaynarb96@gmail.com</p>
             </div>
 
-            <div>
-
+            <div className='flex gap-4 mb-3'>
+              <a href='' > <FaGithub size={20}/> </a>
+              <a href='' > <SlSocialLinkedin size={20}/> </a>
+              <a href='' > <SiHashnode size={20}/> </a>
+              <a href=''> <FaXTwitter size={20} /> </a>
             </div>
         </div>
     )
