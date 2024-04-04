@@ -3,7 +3,7 @@ import avatar from '../assets/avatar.png'
 
 const About = () => {
     return (
-        <div className='bg-black px-7 lg:px-9 pb-12'>
+        <div className='bg-black px-7 lg:px-9 pb-12 ' id='about'>
             <div className='flex gap-2 text-2xl mb-6'>
                 <h2 className='text-complex'>About me</h2>
                 <div className='text-main'>---------------</div>
@@ -19,7 +19,7 @@ const About = () => {
                     </a>
                 </div>
 
-                <div className=' flex justify-end lg:ml-[120px]'>
+                <div className=' flex justify-center lg:justify-end lg:ml-[120px]'>
                     <img className='h-[350px] ' src={avatar} alt='avatar'/>
                 </div>
             </div>

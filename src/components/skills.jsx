@@ -23,7 +23,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Skills = () => {
     return (
-        <div className='bg-black px-7 lg:px-9 py-10'>
+        <div className='bg-black px-7 lg:px-9 py-10' id='skills'>
             <div>
                 <div className='flex gap-2 text-2xl mb-2'>
                     <h2 className='text-complex'>Skills</h2>

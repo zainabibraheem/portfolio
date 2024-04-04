@@ -17,15 +17,15 @@ export const projectData = [
         id: 2,
         image: brim,
         title: "Brim Furniture",
-        about: "",
-        link: '',
+        about: "Brim Furniture is an e-commerce website that enables people to shop furnitures online rather than a physical store. it procees orders and accepts payment swiftly.",
+        link: 'https://brim-furniture.vercel.app/',
     },
 
     {
         id: 3,
         image: lonaspa,
         title: "Lonaspa",
-        about: "",
-        link: '',
+        about: "Lonaspa is a spa brand located in lagos nigeria, dedicated to providing ultimate spa experience that nourishes your body, soothes your soul, and restores your inner balance",
+        link: 'https://lonaspa.vercel.app/',
     },
 ]

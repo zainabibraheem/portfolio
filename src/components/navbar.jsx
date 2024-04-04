@@ -23,11 +23,11 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul className=' flex gap-12'>
-                        <li className='text-complex hover:text-main'> <a href=''>About me</a></li>
-                        <li className='text-complex hover:text-main'> <a href=''>Skills</a></li>
-                        <li className='text-complex hover:text-main'>  <a href=''>Projects</a></li>
+                        <li className='text-complex hover:text-main'> <a href='#about'>About me</a></li>
+                        <li className='text-complex hover:text-main'> <a href='#skills'>Skills</a></li>
+                        <li className='text-complex hover:text-main'>  <a href='#projects'>Projects</a></li>
                         <li className='text-complex hover:text-main'> <a href='' > Blog</a></li>
-                        <li className='text-complex hover:text-main'> <a href='' > Contact </a></li>
+                        <li className='text-complex hover:text-main'> <a href='#contact' > Contact </a></li>
                     </ul>
                 </div>
             </div>
@@ -43,11 +43,11 @@ const Navbar = () => {
                 {navOPen &&
                     <div className='fixed pb-2  w-screen top-[70px] left-0 bg-black'>
                         <ul className=' flex text-lg flex-col '>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href=''>About me</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href=''>Skills</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'>  <a href=''>Projects</a></li>
+                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='#about'>About me</a></li>
+                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='#skills'>Skills</a></li>
+                            <li className='text-complex px-7 py-3 hover:text-main'>  <a href='#projects'>Projects</a></li>
                             <li className='text-complex px-7 py-3 hover:text-main'> <a href='' > Blog</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='' > Contact </a></li>
+                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='#contact' > Contact </a></li>
                         </ul>
                     </div>}
             </div>

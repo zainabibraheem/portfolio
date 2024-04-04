@@ -1,11 +1,10 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
-import Navbar from './navbar';
 
 const Hero = () => {
   return (
     <div className='bg-black h-screen lg:h-[500px] text-complex flex flex-col justify-center items-center gap-6'>
-      <Navbar />
+
       <h2 className='text-2xl'>Hello!</h2>
       <div className='flex items-end gap-2 text-lg md:text-2xl lg:text-3xl '>
         <h2 className=''>I am Zainab,  </h2>
