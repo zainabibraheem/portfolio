@@ -1,5 +1,10 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
+import { FaGithub } from "react-icons/fa";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { FaTwitter, FaXTwitter } from "react-icons/fa6";
+import { SiHashnode } from "react-icons/si";
+
 
 const Hero = () => {
   return (
@@ -25,10 +30,11 @@ const Hero = () => {
           <button className='text-primary text-sm md:text-md md:py-4 md:px-5 py-3 px-4 hover:bg-main hover:text-black border-main border-[1px]'>Download My CV</button>
         </a>
 
-        <a href='' >
+        <a href='#contact' >
           <button className='text-primary text-sm md:text-md md:py-4 md:px-5 py-3 px-4 border-main hover:bg-main hover:text-black border-[1px]'>Contact Me</button>
         </a>
       </div>
+
     </div>
   )
 }

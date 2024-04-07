@@ -9,6 +9,8 @@ const About = () => {
                 <div className='text-main'>---------------</div>
             </div>
 
+            <h2 className='text-complex text-2xl font-bold'>Who am I?</h2>
+
             <div className=' flex flex-col lg:flex-row gap-10 '>
                 <div className='text-complex flex flex-col gap-6 mt-3 lg:gap-10 lg:w-3/5'>
                     <p>Hey there! i'm Zainab, a frontend developer with a keen eye for design. I love building quality, virtually appealing web applications using javacritp and its frasmeworks. I am very passionate about building user friendly interfaces. I write clean, functional code and also love collaborating with colleagues to achieve project success. </p>

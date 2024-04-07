@@ -54,31 +54,43 @@ const Contact = () => {
                     <div className='text-main'>-------------------</div>
                 </div>
 
-                <div className='text-complex'>
-                    <h2 className='mb-10'>I am open to building projects and Technical Writing opportunities. You can also pitch me your Open-Source Project</h2>
-                </div>
+
             </div>
 
             <div className='grid gap-12 lg:grid-cols-2'>
-
-                <div className='text-white flex gap-5 flex-col justify-center items-center'>
-                    <div className='border-[1px] flex flex-col items-center gap-1 bg-[#3B7141] rounded-md w-full lg:w-[18rem]  border-main text-center py-4'>
-                        <MdEmail size={25} />
-                        <h2>Email</h2>
-                        <h2> <a href='' >zaynarb96@gmail.com</a> </h2>
-                        <h2 className='text-main font-bold'>Send me a message</h2>
+                <div>
+                    <div className='text-complex mb-20'>
+                        <h2 className='mb-10'>Do you have any ideas you would love to bring to life? Reach out, I would love to walk this journey with you. I am open to building projects and Technical Writing opportunities. You can also pitch me your Open-Source Projects</h2>
                     </div>
 
-                    <div className='border-[1px] flex flex-col items-center gap-1 bg-[#3B7141] rounded lg:w-[18rem] w-full border-main text-center py-4'>
-                        <FaTwitter size={25} />
-                        <h2>Twitter</h2>
-                        <h2> <a href='' >zainabibraheem_</a> </h2>
-                        <h2>Send me a message</h2>
+                    <div className='text-white flex gap-5 flex-col justify-center items-center'>
+                        <div className='border-[1px] flex flex-col items-center gap-1 bg-[#3B7141] rounded-md w-full lg:w-[18rem]  border-main text-center py-4'>
+                            <MdEmail size={25} />
+                            <h2>Email</h2>
+                            <h2> <a href='' >zaynarb96@gmail.com</a> </h2>
+
+                            <a href=''>
+                                <h2 className='text-[#5bff29] font-semibold'>Send me a message</h2>
+                            </a>
+
+                        </div>
+
+                        <div className='border-[1px] flex flex-col items-center gap-1 bg-[#3B7141] rounded lg:w-[18rem] w-full border-main text-center py-4'>
+                            <FaTwitter size={25} />
+                            <h2>Twitter</h2>
+                            <h2> <a href='' >zainabibraheem_</a> </h2>
+
+                            <a href='https://twitter.com/zainabibraheem_' target='_blank'>
+                                <h2 className='text-[#5bff29] font-semibold'>Send me a message</h2>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
 
+
                 <div className=''>
-                    <form ref={form} onSubmit={handleSubmit} className='flex flex-col gap-8'>
+                    <form ref={form} onSubmit={handleSubmit} className='flex flex-col gap-10'>
                         <input
                             placeholder='Name'
                             className='w-full border bg-transparent border-main focus:outline-none focus:border-blue-500 text-complex rounded-md px-4 py-[7px]'
