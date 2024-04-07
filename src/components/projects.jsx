@@ -10,7 +10,7 @@ const Projects = () => {
                 <div className='text-main'>---------------</div>
             </div>
             <h2 className='text-complex leading-7 text-md lg:w-1/2'>Over time, As I've progressed in my journey of learning and mastering frontend tools and frameworks, I've built several projects to exhibit my skills.</h2>
-            <div className='bg-black gap-6 grid justify-items-center md:grid-cols-2 lg:grid-cols-3 py-10 px-[auto]'>
+            <div className='bg-black gap-10 grid justify-items-center md:grid-cols-2 lg:grid-cols-3 py-10 px-[auto]'>
                 {projectData.map((project) => {
                     const { id, image, title, about, link } = project
                     return (
