@@ -43,11 +43,11 @@ const Navbar = () => {
                 {navOPen &&
                     <div className='fixed pb-2  w-screen top-[70px] left-0 bg-black'>
                         <ul className=' flex text-lg flex-col '>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='#about'>About me</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='#skills'>Skills</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'>  <a href='#projects'>Projects</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='' > Blog</a></li>
-                            <li className='text-complex px-7 py-3 hover:text-main'> <a href='#contact' > Contact </a></li>
+                            <li onClick={closeNav} className='text-complex px-7 py-3 hover:text-main'> <a href='#about'>About me</a></li>
+                            <li onClick={closeNav} className='text-complex px-7 py-3 hover:text-main'> <a href='#skills'>Skills</a></li>
+                            <li onClick={closeNav} className='text-complex px-7 py-3 hover:text-main'>  <a href='#projects'>Projects</a></li>
+                            <li onClick={closeNav} className='text-complex px-7 py-3 hover:text-main'> <a href='' > Blog</a></li>
+                            <li onClick={closeNav} className='text-complex px-7 py-3 hover:text-main'> <a href='#contact' > Contact </a></li>
                         </ul>
                     </div>}
             </div>
