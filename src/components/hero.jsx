@@ -8,7 +8,7 @@ import { SiHashnode } from "react-icons/si";
 
 const Hero = () => {
   return (
-    <div className='bg-black h-[600px] lg:mt-12 text-complex flex flex-col justify-center items-center gap-6'>
+    <div className='bg-black h-[700px] lg:mt-12 text-complex flex flex-col justify-center items-center gap-6'>
     
       <h2 className='text-2xl'>Hello!</h2>
       <div className='flex items-end gap-2 text-lg md:text-2xl lg:text-3xl '>
