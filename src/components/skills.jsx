@@ -29,7 +29,7 @@ const Skills = () => {
                     <h2 className='text-complex'>Skills</h2>
                     <div className='text-main'>-----------------------</div>
                 </div>
-                <h2 className='text-complex mb-8'>Technologies I work with</h2>
+                <h2 className='text-complex mb-8 leading-7'>Technologies I work with</h2>
             </div>
 
             <div className='flex gap-10 flex-wrap justify-center '>

@@ -9,14 +9,14 @@ const About = () => {
                 <div className='text-main'>---------------</div>
             </div>
 
-            <h2 className='text-complex text-2xl font-bold'>Who am I?</h2>
+            <h2 className='text-complex mb-3 text-2xl font-bold'>Who am I?</h2>
 
             <div className=' flex flex-col lg:flex-row gap-10 '>
-                <div className='text-complex flex flex-col gap-6 mt-3 lg:gap-10 lg:w-3/5'>
+                <div className='text-complex leading-7 flex flex-col gap-6 mt-3 lg:gap-10 lg:w-3/5'>
                     <p>Hey there! i'm Zainab, a frontend developer with a keen eye for design. I love building quality, virtually appealing web applications using javacritp and its frasmeworks. I am very passionate about building user friendly interfaces. I write clean, functional code and also love collaborating with colleagues to achieve project success. </p>
                     <p>I also write informative articles on various technical topics, educating users and fellow developers with my blog post. </p>
                     <p>If you're looking for a passionate Frontend Developer and Technical Writer to bring your ideas to life, i'm your girl.</p>
-                    <a href='' >
+                    <a href='#contact' >
                         <button className='text-primary text-md py-2 px-4 border-main hover:bg-main hover:text-black border-[1px]'>Contact Me</button>
                     </a>
                 </div>
