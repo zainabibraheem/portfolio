@@ -16,10 +16,10 @@ const Footer = () => {
             </div>
 
             <div className='flex gap-4 mb-3'>
-              <a href='' > <FaGithub size={20}/> </a>
-              <a href='' > <SlSocialLinkedin size={20}/> </a>
-              <a href='' > <SiHashnode size={20}/> </a>
-              <a href=''> <FaXTwitter size={20} /> </a>
+              <a href='https://github.com/zainabibraheem' > <FaGithub size={20}/> </a>
+              <a href='https://www.linkedin.com/in/zainabibrahim-/' > <SlSocialLinkedin size={20}/> </a>
+              <a href='https://zainabibrahim.hashnode.dev/' > <SiHashnode size={20}/> </a>
+              <a href='https://twitter.com/zainabibraheem_'> <FaXTwitter size={20} /> </a>
             </div>
         </div>
     )
